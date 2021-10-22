@@ -1,0 +1,12 @@
+Assignment name  : ft_putstr
+Expected files   : ft_putstr.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+표준 출력에 문자열을 표시하는 함수를 작성합니다.
+
+함수에 전달된 포인터는 문자열의 첫 번째 문자의 주소를 포함합니다.
+
+함수는 다음과 같이 선언되어야 합니다.
+
+void	ft_putstr(char *str);

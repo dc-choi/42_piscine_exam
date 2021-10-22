@@ -1,0 +1,24 @@
+Assignment name  : first_word
+Expected files   : first_word.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+문자열을 사용하고 첫 번째 단어를 표시한 다음 줄 바꿈을 표시하는 프로그램을 작성합니다.
+
+단어는 공백/탭 또는 문자열의 시작/끝으로 구분된 문자열의 섹션입니다.
+
+파라미터 수가 1이 아니거나 단어가 없으면 새 줄을 표시하기만 하면 됩니다.
+
+Examples:
+
+$> ./first_word "FOR PONY" | cat -e
+FOR$
+$> ./first_word "this        ...       is sparta, then again, maybe    not" | cat -e
+this$
+$> ./first_word "   " | cat -e
+$
+$> ./first_word "a" "b" | cat -e
+$
+$> ./first_word "  lorem,ipsum  " | cat -e
+lorem,ipsum$
+$>

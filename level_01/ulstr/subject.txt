@@ -1,0 +1,21 @@
+Assignment name  : ulstr
+Expected files   : ulstr.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+문자열을 가져다가 모든 글자의 대소문자를 반전시키는 프로그램을 작성하세요. 다른 문자는 변경되지 않습니다.
+
+결과를 '\n' 뒤에 표시해야 합니다.
+
+인수 수가 1이 아니면 프로그램은 '\n'을 표시합니다.
+
+Examples :
+
+$>./ulstr "L'eSPrit nE peUt plUs pRogResSer s'Il staGne et sI peRsIsTent VAnIte et auto-justification." | cat -e
+l'EspRIT Ne PEuT PLuS PrOGrESsER S'iL STAgNE ET Si PErSiStENT vaNiTE ET AUTO-JUSTIFICATION.$
+$>./ulstr "S'enTOuRer dE sECreT eSt uN sIGnE De mAnQuE De coNNaiSSanCe.  " | cat -e
+s'ENtoUrER De SecREt EsT Un SigNe dE MaNqUe dE COnnAIssANcE.  $
+$>./ulstr "3:21 Ba  tOut  moUn ki Ka di KE m'en Ka fe fot" | cat -e
+3:21 bA  ToUT  MOuN KI kA DI ke M'EN kA FE FOT$
+$>./ulstr | cat -e
+$

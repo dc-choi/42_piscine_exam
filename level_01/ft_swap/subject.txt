@@ -1,0 +1,10 @@
+Assignment name  : ft_swap
+Expected files   : ft_swap.c
+Allowed functions: 
+--------------------------------------------------------------------------------
+
+매개변수로 전달되는 두 정수의 내용을 교환하는 함수를 작성하세요.
+
+함수는 다음과 같이 선언되어야 합니다.
+
+void	ft_swap(int *a, int *b);

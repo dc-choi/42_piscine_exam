@@ -1,0 +1,37 @@
+Assignment name  : fizzbuzz
+Expected files   : fizzbuzz.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+1부터 100까지의 숫자를 새 줄로 구분하여 출력하는 프로그램을 작성하세요.
+
+숫자가 3의 배수일 경우 대신 fizz를 출력합니다.
+
+숫자가 5의 배수일 경우 대신 'buzz'를 출력합니다.
+
+만약 그 숫자가 3의 배수이고 5의 배수라면, 대신 'fizzbuzz'를 출력한다.
+
+Example:
+
+$>./fizzbuzz
+1
+2
+fizz
+4
+buzz
+fizz
+7
+8
+fizz
+buzz
+11
+fizz
+13
+14
+fizzbuzz
+[...]
+97
+98
+fizz
+buzz
+$>

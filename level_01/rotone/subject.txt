@@ -1,0 +1,29 @@
+Assignment name  : rotone
+Expected files   : rotone.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+문자열을 가져와서 표시하는 프로그램을 작성하여 각각의 문자를 알파벳 순서대로 다음 문자로 바꿉니다.
+
+'z'는 'a'가 되고 'Z'는 'A'가 된다.
+
+대소문자는 영향을 받지 않는다.
+
+출력 뒤에 \n이 나옵니다.
+
+인수 수가 1이 아니면 프로그램은 \n을 표시합니다.
+
+Example:
+
+$>./rotone "abc"
+bcd
+$>./rotone "Les stagiaires du staff ne sentent pas toujours tres bon." | cat -e
+Mft tubhjbjsft ev tubgg of tfoufou qbt upvkpvst usft cpo.$
+$>./rotone "AkjhZ zLKIJz , 23y " | cat -e
+BlkiA aMLJKa , 23z $
+$>./rotone | cat -e
+$
+$>
+$>./rotone "" | cat -e
+$
+$>

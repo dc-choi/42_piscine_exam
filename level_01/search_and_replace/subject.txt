@@ -1,0 +1,24 @@
+Assignment name  : search_and_replace
+Expected files   : search_and_replace.c
+Allowed functions: write, exit
+--------------------------------------------------------------------------------
+
+search_and_replace라는 프로그램을 작성하여 3개의 인수를 가져오면 첫 번째 인수는 문자(2번째 인수)를 다른 인수(3번째 인수)로 대체하는 문자열이다.
+
+인수 수가 3이 아니면 새 줄을 표시합니다.
+
+만약 두 번째 인수가 첫 번째 인수에 포함되지 않는다면, 프로그램은 단순히 문자열을 다시 쓰고 그 다음에 새로운 줄을 쓴다.
+
+Examples:
+$>./search_and_replace "Papache est un sabre" "a" "o"
+Popoche est un sobre
+$>./search_and_replace "zaz" "art" "zul" | cat -e
+$
+$>./search_and_replace "zaz" "r" "u" | cat -e
+zaz$
+$>./search_and_replace "jacob" "a" "b" "c" "e" | cat -e
+$
+$>./search_and_replace "ZoZ eT Dovid oiME le METol." "o" "a" | cat -e
+ZaZ eT David aiME le METal.$
+$>./search_and_replace "wNcOre Un ExEmPle Pas Facilw a Ecrirw " "w" "e" | cat -e
+eNcOre Un ExEmPle Pas Facile a Ecrire $

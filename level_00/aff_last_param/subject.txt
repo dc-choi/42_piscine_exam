@@ -1,0 +1,17 @@
+Assignment name  : aff_last_param
+Expected files   : aff_last_param.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+문자열을 인수로 사용하고 마지막 인수 다음에 줄 바꿈을 표시하는 프로그램을 작성합니다.
+
+인수 수가 1보다 작으면 프로그램에서 새 줄을 표시합니다.
+
+Examples:
+
+$> ./aff_last_param "zaz" "mange" "des" "chats" | cat -e
+chats$
+$> ./aff_last_param "j'aime le savon" | cat -e
+j'aime le savon$
+$> ./aff_last_param
+$

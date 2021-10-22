@@ -1,0 +1,14 @@
+Assignment name  : hello
+Expected files   : hello.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+"Hello World!" 뒤에 \n이 표시되는 프로그램을 작성합니다.
+
+Example:
+
+$>./hello
+Hello World!
+$>./hello | cat -e
+Hello World!$
+$>

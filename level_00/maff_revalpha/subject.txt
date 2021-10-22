@@ -1,0 +1,11 @@
+Assignment name  : maff_revalpha
+Expected files   : maff_revalpha.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+알파벳을 짝수는 대문자, 홀수는 소문자로 바꾼 후 줄 바꿈을 거꾸로 표시하는 프로그램을 작성한다.
+
+Example:
+
+$> ./maff_revalpha | cat -e
+zYxWvUtSrQpOnMlKjIhGfEdCbA$

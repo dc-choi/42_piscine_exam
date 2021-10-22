@@ -1,0 +1,17 @@
+Assignment name  : aff_first_param
+Expected files   : aff_first_param.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+문자열을 인수로 사용하고 첫 번째 인수 다음에 \n을 표시하는 프로그램을 작성합니다.
+
+인수 수가 1보다 작으면 프로그램은 \n을 표시합니다.
+
+Example:
+
+$> ./aff_first_param vincent mit "l'ane" dans un pre et "s'en" vint | cat -e
+vincent$
+$> ./aff_first_param "j'aime le fromage de chevre" | cat -e
+j'aime le fromage de chevre$
+$> ./aff_first_param
+$

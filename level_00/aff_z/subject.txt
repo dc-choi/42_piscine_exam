@@ -1,0 +1,19 @@
+Assignment name  : aff_z
+Expected files   : aff_z.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+문자열을 가져와서 문자열을 처음 접하는 'z' 문자와 줄 바꿈을 표시하는 프로그램을 작성합니다.
+문자열에 'z' 문자가 없으면 프로그램은 'z' 뒤에 새 줄을 쓴다.
+파라미터 수가 1이 아닐 경우 프로그램에서 'z' 다음에 새 라인을 표시합니다.
+
+Example:
+
+$> ./aff_z "abc" | cat -e
+z$
+$> ./aff_z "dubO a POIL" | cat -e
+z$
+$> ./aff_z "zaz sent le poney" | cat -e
+z$
+$> ./aff_z | cat -e
+z$

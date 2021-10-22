@@ -1,0 +1,6 @@
+Assignment name  : only_z
+Expected files   : only_z.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+표준 출력에 'z' 문자를 표시하는 프로그램을 작성합니다.

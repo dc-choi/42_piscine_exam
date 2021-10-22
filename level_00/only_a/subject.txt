@@ -1,0 +1,6 @@
+Assignment name  : only_a
+Expected files   : only_a.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+표준 출력에 'a'자를 표시하는 프로그램을 작성합니다.

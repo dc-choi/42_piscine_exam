@@ -1,0 +1,12 @@
+Assignment name  : ft_atoi
+Expected files   : ft_atoi.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+문자열 인수 str을 정수(int 형식)로 변환하여 반환하는 함수를 작성합니다.
+
+이것은 표준 atoi()와 매우 흡사하게 작동한다.
+
+함수는 다음과 같이 선언되어야 합니다.
+
+int	ft_atoi(const char *str);

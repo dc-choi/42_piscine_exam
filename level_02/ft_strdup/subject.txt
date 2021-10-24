@@ -1,0 +1,10 @@
+Assignment name  : ft_strdup
+Expected files   : ft_strdup.c
+Allowed functions: malloc
+--------------------------------------------------------------------------------
+
+함수 strdup(man strdup)의 동작을 재현합니다.
+
+함수는 다음과 같이 선언되어야 합니다.
+
+char    *ft_strdup(char *src);

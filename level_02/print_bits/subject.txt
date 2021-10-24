@@ -1,0 +1,12 @@
+Assignment name  : print_bits
+Expected files   : print_bits.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+바이트를 가져다가 마지막에 새 라인 없이 2진법으로 출력하는 함수를 작성한다.
+
+Your function must be declared as follows:
+
+void	print_bits(unsigned char octet);
+
+예를 들어 print_bits에 2를 전달하면 "00000010"이 인쇄됩니다.

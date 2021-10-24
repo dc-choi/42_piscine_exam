@@ -1,0 +1,23 @@
+Assignment name  : wdmatch
+Expected files   : wdmatch.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+두 개의 문자열을 가져다가 두 번째 문자열의 문자로 첫 번째 문자열을 쓸 수 있는지 확인하면서, 두 번째 문자열의 문자가 나타나는 순서를 지키는 프로그램을 작성한다.
+
+가능하면 프로그램은 문자열을 표시하고 그 다음에 \n을 표시하며, 그렇지 않으면 단순히 \n을 표시합니다.
+
+인수 수가 2가 아니면 프로그램은 \n을 표시합니다.
+
+Examples:
+
+$>./wdmatch "faya" "fgvvfdxcacpolhyghbreda" | cat -e
+faya$
+$>./wdmatch "faya" "fgvvfdxcacpolhyghbred" | cat -e
+$
+$>./wdmatch "quarante deux" "qfqfsudf arzgsayns tsregfdgs sjytdekuoixq " | cat -e
+quarante deux$
+$>./wdmatch "error" rrerrrfiiljdfxjyuifrrvcoojh | cat -e
+$
+$>./wdmatch | cat -e
+$

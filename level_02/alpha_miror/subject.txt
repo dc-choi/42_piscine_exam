@@ -1,0 +1,25 @@
+Assignment name  : alpha_mirror
+Expected files   : alpha_mirror.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+각 알파벳 문자를 반대 알파벳 문자로 바꾼 후 문자열을 가져와서 새 줄로 표시하는 alpha_mirror라는 프로그램을 작성합니다.
+
+'a'는 'z'가 되고, 'Z'는 'A'가 된다.
+'d'는 'w'가 되고, 'M'은 'N'이 된다.
+
+기타 등등.
+
+대소문자는 변경되지 않습니다.
+
+인수 수가 1이 아니면 새 줄만 표시합니다.
+
+Examples:
+
+$>./alpha_mirror "abc"
+zyx
+$>./alpha_mirror "My horse is Amazing." | cat -e
+Nb slihv rh Znzarmt.$
+$>./alpha_mirror | cat -e
+$
+$>

@@ -1,0 +1,24 @@
+Assignment name  : last_word
+Expected files   : last_word.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+문자열을 사용하고 마지막 단어 다음에 \n을 표시하는 프로그램을 작성합니다.
+
+단어는 공백/탭 또는 문자열의 시작/끝으로 구분된 문자열의 섹션입니다.
+
+파라미터 수가 1이 아니거나 단어가 없으면 새 줄을 표시합니다.
+
+Example:
+
+$> ./last_word "FOR PONY" | cat -e
+PONY$
+$> ./last_word "this        ...       is sparta, then again, maybe    not" | cat -e
+not$
+$> ./last_word "   " | cat -e
+$
+$> ./last_word "a" "b" | cat -e
+$
+$> ./last_word "  lorem,ipsum  " | cat -e
+lorem,ipsum$
+$>

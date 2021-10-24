@@ -1,0 +1,12 @@
+Assignment name  : ft_strrev
+Expected files   : ft_strrev.c
+Allowed functions: 
+--------------------------------------------------------------------------------
+
+문자열을 반전(in-place)하는 함수를 작성합니다.
+
+매개 변수를 반환해야 합니다.
+
+함수는 다음과 같이 선언되어야 합니다.
+
+char    *ft_strrev(char *str);

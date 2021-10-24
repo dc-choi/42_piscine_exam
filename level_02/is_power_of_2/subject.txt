@@ -1,0 +1,12 @@
+Assignment name  : is_power_of_2
+Expected files   : is_power_of_2.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+주어진 숫자가 2의 거듭제곱인지를 결정하는 함수를 쓰세요.
+
+이 함수는 주어진 숫자가 2의 거듭제곱이면 1을 반환하고, 그렇지 않으면 0을 반환합니다.
+
+함수는 다음과 같이 선언되어야 합니다.
+
+int	    is_power_of_2(unsigned int n);

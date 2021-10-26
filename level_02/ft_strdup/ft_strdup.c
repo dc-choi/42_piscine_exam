@@ -6,9 +6,11 @@
 /*   By: donchoi <donchoi@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/24 19:16:50 by donchoi           #+#    #+#             */
-/*   Updated: 2021/10/24 19:23:57 by donchoi          ###   ########.fr       */
+/*   Updated: 2021/10/26 17:34:05 by donchoi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stdlib.h>
 
 int ft_strlen(char *src)
 {

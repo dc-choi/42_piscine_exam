@@ -1,0 +1,22 @@
+Assignment name  : str_capitalizer
+Expected files   : str_capitalizer.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+하나 또는 여러 개의 문자열을 사용하고 각 인수에 대해 각 단어의 첫 번째 문자를 대문자로 표시하고 나머지를 소문자로 넣고 결과를 표준 출력에 \n 뒤에 표시하는 프로그램을 작성하십시오.
+
+단어는 공백/탭 또는 문자열의 시작/끝으로 구분된 문자열의 일부로 정의된다. 한 단어에 문자가 하나만 있으면 대문자로 표시해야 합니다.
+
+인수가 없으면 progam은 \n을 표시해야 합니다.
+
+Example:
+
+$> ./str_capitalizer | cat -e
+$
+$> ./str_capitalizer "Premier PETIT TesT" | cat -e
+Premier Petit Test$
+$> ./str_capitalizer "DeuxiEmE tEST uN PEU moinS  facile" "   attention C'EST pas dur QUAND mEmE" "ALLer UN DeRNier 0123456789pour LA rouTE    E " | cat -e
+Deuxieme Test Un Peu Moins  Facile$
+   Attention C'est Pas Dur Quand Meme$
+Aller Un Dernier 0123456789pour La Route    E $
+$>

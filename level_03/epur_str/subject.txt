@@ -1,0 +1,22 @@
+Assignment name  : epur_str
+Expected files   : epur_str.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+문자열을 사용하고 이 문자열을 단어 사이에 공백이나 탭 없이 시작이나 끝에 공백이나 탭 없이 \n 뒤에 표시하는 프로그램을 작성합니다.
+
+단어는 공백/탭 또는 문자열의 시작/끝으로 구분된 문자열의 일부로 정의된다.
+
+인수의 수가 1이 아니거나 표시할 단어가 없는 경우 프로그램은 \n을 표시합니다.
+
+Example:
+
+$> ./epur_str "vous voyez c'est facile d'afficher la meme chose" | cat -e
+vous voyez c'est facile d'afficher la meme chose$
+$> ./epur_str " seulement          la c'est      plus dur " | cat -e
+seulement la c'est plus dur$
+$> ./epur_str "comme c'est cocasse" "vous avez entendu, Mathilde ?" | cat -e
+$
+$> ./epur_str "" | cat -e
+$
+$>

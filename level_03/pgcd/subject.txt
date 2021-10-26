@@ -1,0 +1,23 @@
+Assignment name  : pgcd
+Expected files   : pgcd.c
+Allowed functions: printf, atoi, malloc, free
+--------------------------------------------------------------------------------
+
+int에 들어맞는 두 개의 엄격한 양의 정수를 나타내는 두 개의 문자열을 사용하는 프로그램을 작성하세요.
+
+가장 높은 공통 분모를 새 줄 다음에 표시합니다(항상 양수임).
+
+인수가 2가 아니면 새 선을 표시합니다.
+
+Examples:
+
+$> ./pgcd 42 10 | cat -e
+2$
+$> ./pgcd 42 12 | cat -e
+6$
+$> ./pgcd 14 77 | cat -e
+7$
+$> ./pgcd 17 3 | cat -e 
+1$
+$> ./pgcd | cat -e
+$

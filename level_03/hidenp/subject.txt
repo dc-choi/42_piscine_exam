@@ -1,0 +1,22 @@
+Assignment name  : hidenp
+Expected files   : hidenp.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+두 개의 문자열을 가져다가 첫 번째 문자열이 두 번째 문자열에 숨겨져 있으면 새 줄을 표시하고 그렇지 않으면 0 다음에 새 줄을 표시하는 hidenp라는 이름의 프로그램을 작성합니다.
+
+s1과 s2를 문자열로 하자. s1에 나타나는 것과 같은 순서로 s1의 각 문자를 s2에서 찾을 수 있다면 s1은 s2에 숨겨져 있다고 할 수 있습니다. 또한 빈 문자열은 임의의 문자열에서 숨겨집니다.
+
+파라미터 수가 2가 아닐 경우 프로그램에서 새 라인을 표시합니다.
+
+Examples :
+
+$>./hidenp "fgex.;" "tyf34gdgf;'ektufjhgdgex.;.;rtjynur6" | cat -e
+1$
+$>./hidenp "abc" "2altrb53c.sse" | cat -e
+1$
+$>./hidenp "abc" "btarc" | cat -e
+0$
+$>./hidenp | cat -e
+$
+$>

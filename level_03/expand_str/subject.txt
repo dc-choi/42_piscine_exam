@@ -1,0 +1,21 @@
+Assignment name  : expand_str
+Expected files   : expand_str.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+문자열을 가져다가 각 단어 사이에 공백이나 탭 없이 정확히 세 칸으로 표시하고, 시작이나 끝에 공백이나 탭 없이 줄 바꿈으로 표시하는 프로그램을 작성합니다.
+
+단어는 공백/탭 또는 문자열의 시작/끝으로 구분된 문자열의 섹션입니다.
+
+파라미터 수가 1이 아니거나 단어가 없으면 새 줄을 표시하기만 하면 됩니다.
+
+Examples:
+
+$> ./expand_str "vous   voyez   c'est   facile   d'afficher   la   meme   chose" | cat -e
+vous   voyez   c'est   facile   d'afficher   la   meme   chose$
+$> ./expand_str " seulement          la c'est      plus dur " | cat -e
+seulement   la   c'est   plus   dur$
+$> ./expand_str "comme c'est cocasse" "vous avez entendu, Mathilde ?" | cat -e
+$
+$> ./expand_str "" | cat -e
+$

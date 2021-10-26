@@ -1,0 +1,18 @@
+Assignment name  : add_prime_sum
+Expected files   : add_prime_sum.c
+Allowed functions: write, exit
+--------------------------------------------------------------------------------
+
+양의 정수를 인수로 받아들이고 그 수보다 작거나 같은 모든 소수들의 합을 새로운 선으로 표시하는 프로그램을 작성하세요.
+
+인수 수가 1이 아니거나 인수가 양수가 아니면 0 다음에 새 줄을 표시합니다.
+
+Examples:
+
+$>./add_prime_sum 5
+10
+$>./add_prime_sum 7 | cat -e
+17$
+$>./add_prime_sum | cat -e
+0$
+$>

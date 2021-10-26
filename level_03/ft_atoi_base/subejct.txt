@@ -1,0 +1,14 @@
+Assignment name  : ft_atoi_base
+Expected files   : ft_atoi_base.c
+Allowed functions: None
+--------------------------------------------------------------------------------
+
+문자열 인수 str(밑면 N <= 16)을 정수(밑면 10)로 변환하여 반환하는 함수를 작성한다.
+입력에 인식되는 문자는 0123456789abcdef입니다. 물론 요청한 베이스에 따라 잘라야 합니다.
+예를 들어, 베이스 4는 "0123"을 인식하고 베이스 16은 "0123456789abcdef"를 인식합니다.
+대문자 또한 인식되어야 합니다: "12fdb3"은 "12FDB3"과 동일합니다.
+마이너스 기호('-')는 문자열의 첫 번째 문자일 때만 해석된다.
+
+Your function must be declared as follows:
+
+int	ft_atoi_base(const char *str, int str_base);

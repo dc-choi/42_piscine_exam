@@ -1,0 +1,11 @@
+Assignment name  : ft_itoa
+Expected files   : ft_itoa.c
+Allowed functions: malloc
+--------------------------------------------------------------------------------
+
+int를 가져다가 null로 끝나는 문자열로 변환하는 함수를 작성합니다.
+함수는 할당해야 하는 문자 배열로 결과를 반환합니다.
+
+Your function must be declared as follows:
+
+char	*ft_itoa(int nbr);

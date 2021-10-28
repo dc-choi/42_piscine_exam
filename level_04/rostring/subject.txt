@@ -1,0 +1,29 @@
+Assignment name  : rostring
+Expected files   : rostring.c
+Allowed functions: write, malloc, free
+--------------------------------------------------------------------------------
+
+문자열을 가져다가 왼쪽으로 한 단어 돌려서 표시하는 프로그램을 작성하세요.
+
+따라서, 첫 번째 단어가 마지막 단어가 되고, 다른 단어는 같은 순서를 유지합니다.
+
+단어는 공백/탭 또는 문자열의 시작/끝으로 구분된 문자열의 일부로 정의된다.
+
+단어는 출력에서 한 칸만 구분됩니다.
+
+인수가 한 개 미만인 경우 프로그램은 \n을 표시합니다.
+
+Example:
+
+$>./rostring "abc   " | cat -e
+abc$
+$>
+$>./rostring "Que la      lumiere soit et la lumiere fut"
+la lumiere soit et la lumiere fut Que
+$>
+$>./rostring "     AkjhZ zLKIJz , 23y"
+zLKIJz , 23y AkjhZ
+$>
+$>./rostring | cat -e
+$
+$>

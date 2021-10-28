@@ -1,0 +1,23 @@
+Assignment name  : ft_list_foreach
+Expected files   : ft_list_foreach.c, ft_list.h
+Allowed functions: 
+--------------------------------------------------------------------------------
+
+리스트와 함수 포인터를 가지고 이 함수를 리스트의 각 요소에 적용하는 함수를 작성합니다.
+
+다음과 같이 선언해야 한다.
+
+void    ft_list_foreach(t_list *begin_list, void (*f)(void *));
+
+f가 가리키는 함수는 다음과 같이 사용됩니다.
+
+(*f)(list_ptr->data);
+
+You must use the following structure, and turn it in as a file called
+ft_list.h:
+
+typedef struct    s_list
+{
+    struct s_list *next;
+    void          *data;
+}                 t_list;

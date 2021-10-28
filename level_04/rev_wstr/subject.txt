@@ -1,0 +1,24 @@
+Assignment name  : rev_wstr
+Expected files   : rev_wstr.c
+Allowed functions: write, malloc, free
+--------------------------------------------------------------------------------
+
+문자열을 매개 변수로 받아 단어를 역순으로 출력하는 프로그램을 작성합니다.
+
+단어는 공백 및/또는 탭으로 둘러싸인 문자열의 일부 또는 문자열의 시작/끝입니다.
+
+파라미터의 개수가 1과 다르면 프로그램에서 '\n'을 표시합니다.
+
+테스트할 매개 변수에는 "추가" 공백이 없습니다(즉, 문자열의 시작이나 끝에는 추가 공백이 없으며 단어는 항상 정확히 한 공백으로 구분됩니다).
+
+Examples:
+
+$> ./rev_wstr "le temps du mepris precede celui de l'indifference" | cat -e
+l'indifference de celui precede mepris du temps le$
+$> ./rev_wstr "abcdefghijklm"
+abcdefghijklm
+$> ./rev_wstr "il contempla le mont" | cat -e
+mont le contempla il$
+$> ./rev_wstr | cat -e
+$
+$>

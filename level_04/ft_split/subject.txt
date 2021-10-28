@@ -1,0 +1,12 @@
+Assignment name  : ft_split
+Expected files   : ft_split.c
+Allowed functions: malloc
+--------------------------------------------------------------------------------
+
+문자열을 가져다가 워드로 분할하여 NULL 종료된 문자열 배열로 반환하는 함수를 작성합니다.
+
+단어는 공백/탭/새 행 또는 문자열의 시작/끝으로 구분된 문자열의 일부로 정의됩니다.
+
+Your function must be declared as follows:
+
+char    **ft_split(char *str);

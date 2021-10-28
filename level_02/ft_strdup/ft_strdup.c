@@ -6,7 +6,7 @@
 /*   By: donchoi <donchoi@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/24 19:16:50 by donchoi           #+#    #+#             */
-/*   Updated: 2021/10/26 17:34:05 by donchoi          ###   ########.fr       */
+/*   Updated: 2021/10/28 18:47:49 by donchoi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,8 +27,9 @@ char *ft_strdup(char *src)
 	int len = ft_strlen(src);
 	char *copy;
 
-	if (!(copy = malloc(sizeof(char) * len + 1)) == NULL)
-		return NULL;
+	copy = malloc(sizeof(char) * len + 1);
+	if (copy == NULL)
+		return 0;
 	while (src[i] != '\0')
 	{
 		copy[i] = src[i];

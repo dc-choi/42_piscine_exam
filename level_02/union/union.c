@@ -6,7 +6,7 @@
 /*   By: donchoi <donchoi@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/24 22:26:27 by donchoi           #+#    #+#             */
-/*   Updated: 2021/10/24 22:42:56 by donchoi          ###   ########.fr       */
+/*   Updated: 2021/10/28 19:14:48 by donchoi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -55,7 +55,7 @@ int main(int argc, char **argv)
 		{
 			if (check_double2(argv[1], argv[2][i]))
 			{
-				if (check_double1(argv[1], argv[2][i], i))
+				if (check_double1(argv[2], argv[2][i], i))
 					write(1, &argv[2][i], 1);
 			}
 			i++;

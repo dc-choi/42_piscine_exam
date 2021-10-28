@@ -6,7 +6,7 @@
 /*   By: donchoi <donchoi@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/24 19:39:13 by donchoi           #+#    #+#             */
-/*   Updated: 2021/10/24 20:23:58 by donchoi          ###   ########.fr       */
+/*   Updated: 2021/10/28 18:49:57 by donchoi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,7 +34,7 @@ int main(int argc, char **argv)
 		while (argv[1][i] != '\0')
 		{
 			j = 0;
-			while (argv[2][i] != '\0')
+			while (argv[2][j] != '\0')
 			{
 				if (argv[1][i] == argv[2][j])
 				{

@@ -6,7 +6,7 @@
 /*   By: donchoi <donchoi@student.42seoul.kr>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/24 19:10:32 by donchoi           #+#    #+#             */
-/*   Updated: 2021/10/24 19:15:22 by donchoi          ###   ########.fr       */
+/*   Updated: 2021/10/28 18:46:52 by donchoi          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,7 @@ size_t ft_strcspn(const char *s, const char *reject)
 		{
 			if (s[i] == reject[j])
 				return i;
+			j++;
 		}
 		i++;
 	}
